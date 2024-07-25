@@ -2,6 +2,7 @@ name: Deploy React App
 on: push
 jobs:
   build:
+    runs-on: ubuntu-latest
     steps:
       - name: Start build
       - uses: actions/checkout@v4

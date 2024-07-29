@@ -7,5 +7,9 @@ def update():
     print("updated")
 
 
+def create():
+    print("create")
+
+
 if __name__ == "__main__":
     print_info("Hellow world!!!")
